@@ -4,12 +4,18 @@
   <meta charset="UTF-8">
   <title>JS Drum Kit</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="https://fav.farm/🔥" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+  <link rel="icon" href="https://fav.farm/🥁" />
   <link rel="script" href="script.js">
 </head>
 <body>
 
-
+<div class="container">
+  <div class="tips">Press the Keyboard to hit the drum!</div>
+  <img src="cat.png" alt="cat" id="cat">
   <div class="keys">
     <div data-key="65" class="key">
       <kbd>A</kbd>
@@ -48,6 +54,8 @@
       <span class="sound">tink</span>
     </div>
   </div>
+</div>
+  
 
   <audio data-key="65" src="sounds/clap.wav"></audio>
   <audio data-key="83" src="sounds/hihat.wav"></audio>
